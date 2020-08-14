@@ -19,7 +19,28 @@
 @link-color: #0000ff;
 @visited-color: #990099;
 @active-color: #ff0000;
+@shadow-topleft: lightgrey;
+@form-text-background: #ffffff;
+@form-text-color: #000000;
 @sans-serif-font: Verdana, Helvetica, sans-serif;
+@image-property: opacity(90%);/*for light theme, value can be `none` for no opacity*/
+
+/* standard proofreading interface colors */
+@standard-interface-background: #cdc0b0;
+@standard-interface-background-text: #ffffff;
+@standard-interface-text-color: #000000;
+
+/* Attention-getting structures */
+@error-color: red;
+@warning-color: blue;
+@alertbar-color: yellow;
+@callout-background: #eee;
+
+/* table styling */
+@table-row-even: #ddd; /* this needs to be two colors, actually, one for themed-striped and one for plain striped. There are two different kinds of stripes -- themed and not themed. May not matter so much for the charcoal theme, but does for the others. So we need an even themed and an even unthemed. */
+@table-row-odd: @page-background;
+@table-border-color: #000000;
+@basic-column-header: #ccc;
 
 /* vim: sw=4 ts=4 expandtab
 */

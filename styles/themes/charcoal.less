@@ -1,0 +1,66 @@
+/* ------------------------------------------------------------------------ */
+/* Theme coloring for Charcoal */
+
+@import "theme.less";
+
+@theme-name: "charcoal";
+
+@page-background: #232323;
+@page-text: #e2e2e2;
+@header-background: #1a1a1a;
+@header-text: #e0e8dd;
+@navbar-background: #000000;
+@navbar-text: #88aa88;
+@sidebar-background: #1a1a1a;
+@sidebar-text: #e0e8dd;
+@footer-background: #000000;
+@footer-text: #88aa88;
+@heading-color: #789a78;
+@link-color: #6699ff;
+@visited-color: #bb7070;
+@active-color: #ff66aa;
+@shadow-topleft: #565656; /* shadow on news item boxes */
+@form-text-background: #343434;
+@form-text-color: #f7f7f7;
+@sans-serif-font: Verdana, Helvetica, sans-serif;
+@image-property: invert(85%); /*invert() for dark theme. none or opacity() for light*/
+
+/* standard proofreading interface colors */
+@standard-interface-background: #343434;
+@standard-interface-background-text: #343434;
+@standard-interface-text-color: #efefef;
+
+/* Attention-getting structures */
+@error-color: #db0000;
+@warning-color: #3636e6;
+@alertbar-color: yellow;
+@callout-background: #454545;
+
+/* table styling */
+@table-row-even: lighten(@sidebar-background, 15%); /* this needs to be two colors, actually, one for themed-striped and one for plain striped. There are two different kinds of stripes -- themed and not themed. May not matter so much for the charcoal theme, but does for the others. So we need an even themed and an even unthemed. */
+@table-row-odd: @page-background;
+@table-border-color: #989898;
+@basic-column-header: #343434;
+
+/* Available Project listings */
+/* The colors below will override the default colors listed in theme.less */
+
+@P1-even: #4d2800;
+@P1-odd: #342719;
+@P2-even: #4d0026;
+@P2-odd: #33001a;
+@P3-even:#4d0099; 
+@P3-odd: #5900b3;
+@F1-even: #000066;
+@F1-odd: #000033;
+@F2-even: #3a0077;
+@F2-odd: #220044;
+@PP-even:#303030; 
+@PP-odd: #404040;
+@PPV-even: #002727;
+@PPV-odd: #001a1a;
+@SR-even: #006400;
+@SR-odd: #003300;
+
+/* vim: sw=4 ts=4 expandtab
+*/

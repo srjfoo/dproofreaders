@@ -26,6 +26,12 @@ header, #header {
     }
 }
 
+/* Add color options for generic text input fields */
+input {
+    background-color: @form-text-background;
+    color: @form-text-color;
+}
+
 /* Navbar */
 nav, #navbar-outer, #navbar, #navbar-left, #navbar-right, #navbar-login {
     background-color: @navbar-background;
@@ -42,8 +48,8 @@ nav, #navbar-outer, #navbar, #navbar-left, #navbar-right, #navbar-login {
 
 #alertbar, #alertbar-outer {
     .sans-serif;
-    background-color: fade(yellow, 40%);
-    color: black;
+    background-color: fade(@alertbar-color, 40%);
+    color: @page-text;
     .unicolor-link(darken(gray, 20%));
 }
 
@@ -52,14 +58,14 @@ nav, #navbar-outer, #navbar, #navbar-left, #navbar-right, #navbar-login {
     background-color: @page-background;
     background: repeating-linear-gradient(
         to right,
-        yellow,
+        @alertbar-color,
         @page-background 24%,
         @page-background 75%,
-        yellow 100%,
+        @alertbar-color 100%,
     );
-    color: black;
-    border-bottom: solid thin black;
-    .unicolor-link(lighten(black, 30%));
+    color: @page-text;
+    border-bottom: solid thin @table-border-color;
+    .unicolor-link(lighten(@page-text, 30%)); /* For light bacground needs to lighten @page-text; for dark background, needs to darken @page-text? for now, use @page-text and just don't worry about it being lightened. */
 }
 
 /* Layout */
@@ -101,13 +107,15 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @sidebar-background;
 }
 
+/* ------------------------------------------------------------------------ */
 /* Attention-getting structures */
+
 .error, .test_warning {
-    color: red;
+    color: @error-color; /*red;*/
 }
 
 .warning {
-    color: blue;
+    color: @warning-color; /*blue;*/
 }
 
 .highlight {
@@ -119,8 +127,20 @@ h1, h2, h3, h4, h5, h6 {
     .sans-serif;
 }
 
+div.callout {
+    background-color: @callout-background;
+    border: solid thin @table-border-color;
+}
+
 kbd {
     color: #cc0000;
+}
+
+/* ------------------------------------------------------------------------ */
+/* News items */
+
+div.newsitem {
+    box-shadow: -5px -5px 5px @shadow-topleft;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -136,6 +156,9 @@ div.faqheader {
 /* User Preferences */
 
 table.preferences {
+    td, th {
+    border-color: @table-border-color;
+    }
     th.label, th.longlabel {
         background-color: @header-background;
         color: @header-text;
@@ -161,6 +184,7 @@ table.preferences {
 /* Themed tables */
 
 table.themed {
+    border-color: @table-border-color;
     tr {
         th {
             background-color: @navbar-background;
@@ -176,17 +200,17 @@ table.themed {
 
 table.theme_striped {
     tr:nth-child(even) {
-        background-color: @sidebar-background;
+        background-color: @table-row-even;
     }
     tr:nth-child(odd) {
-        background-color: @page-background;
+        background-color: @table-row-odd;
     }
 }
 
 table.striped {
     tr:nth-child(even) {
         td {
-            background-color: #ddd;
+            background-color: @table-row-even;
         }
     }
 }
@@ -233,6 +257,21 @@ each(@stages, {
     }
 })
 
+/* -------------------------------------------------------------------------*/
+/* Basic tables */
+
+table.basic {
+    border-color: @table-border-color; /* black in light themes*/
+    tr {
+    th, td {
+        border-color: @table-border-color; /* black for light theme */
+        }
+    }
+    th {
+        background-color: @basic-column-header;
+    }
+}
+
 /* ------------------------------------------------------------------------ */
 /* Sans-serif styling */
 
@@ -273,6 +312,7 @@ table.image_source_listing {
 /* Registration table */
 
 table.register {
+    border: 1px solid @table-border-color;
     td.bar {
         background-color: @navbar-background;
     }
@@ -287,6 +327,12 @@ table.register {
 table.snapshottable {
     th {
         background-color: @header-background;
+    }
+    td, th {
+        border-color: @table-border-color;
+    }
+    th.activity-icon-header {
+        background-color: @page-background;
     }
 }
 
@@ -320,6 +366,21 @@ table.snapshottable {
         border: 1px solid black;
         background: #FFF8DC;
     }
+}
+
+/* ------------------------------------------------------------------------ */
+/* Standard Proofreading Interface */
+
+#standard_interface {
+    background-color: @standard-interface-background;
+    color: @page-text;
+    img {
+        filter: @image-property;
+    }
+}
+#text_data, #text_data:focus {
+    background-color: @standard-interface-background-text;
+    color: @standard-interface-text-color;
 }
 
 /* ------------------------------------------------------------------------ */

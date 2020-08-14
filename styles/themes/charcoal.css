@@ -1,22 +1,22 @@
 /* ------------------------------------------------------------------------ */
-/* Theme coloring for Classic Grey */
+/* Theme coloring for Charcoal */
 body {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #232323;
+  color: #e2e2e2;
 }
 body a:link {
-  color: #0000ff;
+  color: #6699ff;
 }
 body a:visited {
-  color: #0000ff;
+  color: #bb7070;
 }
 body a:active {
-  color: #0000ff;
+  color: #ff66aa;
 }
 header,
 #header {
-  background-color: #dddddd;
-  color: #000000;
+  background-color: #1a1a1a;
+  color: #e0e8dd;
 }
 header #titles-preserved,
 #header #titles-preserved {
@@ -29,8 +29,8 @@ header #titles-preserved #x-preserved,
 }
 /* Add color options for generic text input fields */
 input {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #343434;
+  color: #f7f7f7;
 }
 /* Navbar */
 nav,
@@ -39,7 +39,7 @@ nav,
 #navbar-left,
 #navbar-right,
 #navbar-login {
-  background-color: #444444;
+  background-color: #000000;
   font-family: Verdana, Helvetica, sans-serif;
 }
 nav a:link,
@@ -60,7 +60,7 @@ nav a:active,
 #navbar-left a:active,
 #navbar-right a:active,
 #navbar-login a:active {
-  color: #ffffff;
+  color: #88aa88;
 }
 nav label,
 #navbar-outer label,
@@ -80,7 +80,7 @@ nav span.currentpage,
 #navbar-left span.currentpage,
 #navbar-right span.currentpage,
 #navbar-login span.currentpage {
-  color: #ffffff;
+  color: #88aa88;
 }
 nav input,
 #navbar-outer input,
@@ -95,7 +95,7 @@ nav input,
 #alertbar-outer {
   font-family: Verdana, Helvetica, sans-serif;
   background-color: rgba(255, 255, 0, 0.4);
-  color: #000000;
+  color: #e2e2e2;
 }
 #alertbar a:link,
 #alertbar-outer a:link,
@@ -108,10 +108,10 @@ nav input,
 #testbar,
 #testbar-outer {
   font-family: Verdana, Helvetica, sans-serif;
-  background-color: #ffffff;
-  background: repeating-linear-gradient(to right, yellow, #ffffff 24%, #ffffff 75%, yellow 100%);
-  color: #000000;
-  border-bottom: solid thin #000000;
+  background-color: #232323;
+  background: repeating-linear-gradient(to right, yellow, #232323 24%, #232323 75%, yellow 100%);
+  color: #e2e2e2;
+  border-bottom: solid thin #989898;
   /* For light bacground needs to lighten @page-text; for dark background, needs to darken @page-text? for now, use @page-text and just don't worry about it being lightened. */
 }
 #testbar a:link,
@@ -120,23 +120,23 @@ nav input,
 #testbar-outer a:visited,
 #testbar a:active,
 #testbar-outer a:active {
-  color: #4d4d4d;
+  color: #ffffff;
 }
 /* Layout */
 #page-container {
-  background-color: #dddddd;
+  background-color: #1a1a1a;
 }
 #content-container {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #232323;
+  color: #e2e2e2;
 }
 #rounded-corner {
-  background-color: #ffffff;
+  background-color: #232323;
 }
 #sidebar,
 #statsbar {
-  background-color: #dddddd;
-  color: #000000;
+  background-color: #1a1a1a;
+  color: #e0e8dd;
 }
 #sidebar p,
 #statsbar p,
@@ -150,8 +150,8 @@ nav input,
 }
 footer,
 #footer {
-  background-color: #cccccc;
-  color: #000000;
+  background-color: #000000;
+  color: #88aa88;
   font-family: Verdana, Helvetica, sans-serif;
 }
 footer a:link,
@@ -160,7 +160,7 @@ footer a:visited,
 #footer a:visited,
 footer a:active,
 #footer a:active {
-  color: #000000;
+  color: #88aa88;
 }
 /* Header */
 h1,
@@ -169,21 +169,21 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: #789a78;
   font-family: Verdana, Helvetica, sans-serif;
 }
 .sidebar-color {
-  background-color: #dddddd;
+  background-color: #1a1a1a;
 }
 /* ------------------------------------------------------------------------ */
 /* Attention-getting structures */
 .error,
 .test_warning {
-  color: red;
+  color: #db0000;
   /*red;*/
 }
 .warning {
-  color: blue;
+  color: #3636e6;
   /*blue;*/
 }
 .highlight {
@@ -194,8 +194,8 @@ h6 {
   font-family: Verdana, Helvetica, sans-serif;
 }
 div.callout {
-  background-color: #eee;
-  border: solid thin #000000;
+  background-color: #454545;
+  border: solid thin #989898;
 }
 kbd {
   color: #cc0000;
@@ -203,63 +203,63 @@ kbd {
 /* ------------------------------------------------------------------------ */
 /* News items */
 div.newsitem {
-  box-shadow: -5px -5px 5px lightgrey;
+  box-shadow: -5px -5px 5px #565656;
 }
 /* ------------------------------------------------------------------------ */
 /* FAQ */
 div.faqheader {
   font-family: Verdana, Helvetica, sans-serif;
-  background-color: #444444;
-  color: #ffffff;
+  background-color: #000000;
+  color: #88aa88;
 }
 /* ------------------------------------------------------------------------ */
 /* User Preferences */
 table.preferences td,
 table.preferences th {
-  border-color: #000000;
+  border-color: #989898;
 }
 table.preferences th.label,
 table.preferences th.longlabel {
-  background-color: #dddddd;
-  color: #000000;
+  background-color: #1a1a1a;
+  color: #e0e8dd;
 }
 .tabs li {
-  background-color: #dddddd;
+  background-color: #1a1a1a;
 }
 .tabs li a {
-  color: #000000;
+  color: #e3e3e3;
 }
 .tabs .current-tab {
-  background-color: #ffffff;
+  background-color: #232323;
 }
 .tabs .current-tab a {
-  color: #000000;
+  color: #e2e2e2;
 }
 /* ------------------------------------------------------------------------ */
 /* Themed tables */
 table.themed {
-  border-color: #000000;
+  border-color: #989898;
 }
 table.themed tr {
-  background-color: #dddddd;
-  color: #000000;
+  background-color: #1a1a1a;
+  color: #e0e8dd;
 }
 table.themed tr th {
-  background-color: #444444;
-  color: #ffffff;
+  background-color: #000000;
+  color: #88aa88;
 }
 table.themed tr th a:link,
 table.themed tr th a:visited {
-  color: #ffffff;
+  color: #88aa88;
 }
 table.theme_striped tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: #404040;
 }
 table.theme_striped tr:nth-child(odd) {
-  background-color: #ffffff;
+  background-color: #232323;
 }
 table.striped tr:nth-child(even) td {
-  background-color: #ddd;
+  background-color: #404040;
 }
 /* ------------------------------------------------------------------------ */
 /* Available Project Listings */
@@ -268,66 +268,66 @@ table.availprojectlisting tr:nth-child(even) {
 }
 /* Default stage colors, which can be overridden by the themes */
 table.stage_P1 tr:nth-child(even) {
-  background-color: #ffe4b5;
+  background-color: #4d2800;
 }
 table.stage_P1 tr:nth-child(odd) {
-  background-color: cornsilk;
+  background-color: #342719;
 }
 table.stage_P2 tr:nth-child(even) {
-  background-color: #ffe4b5;
+  background-color: #4d0026;
 }
 table.stage_P2 tr:nth-child(odd) {
-  background-color: cornsilk;
+  background-color: #33001a;
 }
 table.stage_P3 tr:nth-child(even) {
-  background-color: plum;
+  background-color: #4d0099;
 }
 table.stage_P3 tr:nth-child(odd) {
-  background-color: thistle;
+  background-color: #5900b3;
 }
 table.stage_F1 tr:nth-child(even) {
-  background-color: #ffe4b5;
+  background-color: #000066;
 }
 table.stage_F1 tr:nth-child(odd) {
-  background-color: cornsilk;
+  background-color: #000033;
 }
 table.stage_F2 tr:nth-child(even) {
-  background-color: plum;
+  background-color: #3a0077;
 }
 table.stage_F2 tr:nth-child(odd) {
-  background-color: thistle;
+  background-color: #220044;
 }
 table.stage_PP tr:nth-child(even) {
-  background-color: #cccccc;
+  background-color: #303030;
 }
 table.stage_PP tr:nth-child(odd) {
-  background-color: #ffffff;
+  background-color: #404040;
 }
 table.stage_PPV tr:nth-child(even) {
-  background-color: #99ffff;
+  background-color: #002727;
 }
 table.stage_PPV tr:nth-child(odd) {
-  background-color: #eaf7f7;
+  background-color: #001a1a;
 }
 table.stage_SR tr:nth-child(even) {
-  background-color: #ccffcc;
+  background-color: #006400;
 }
 table.stage_SR tr:nth-child(odd) {
-  background-color: #ccff99;
+  background-color: #003300;
 }
 /* -------------------------------------------------------------------------*/
 /* Basic tables */
 table.basic {
-  border-color: #000000;
+  border-color: #989898;
   /* black in light themes*/
 }
 table.basic tr th,
 table.basic tr td {
-  border-color: #000000;
+  border-color: #989898;
   /* black for light theme */
 }
 table.basic th {
-  background-color: #ccc;
+  background-color: #343434;
 }
 /* ------------------------------------------------------------------------ */
 /* Sans-serif styling */
@@ -342,7 +342,7 @@ table.ppv_reportcard th {
   border: solid thin black;
 }
 table.ppv_reportcard th.major_section {
-  background-color: #dddddd;
+  background-color: #1a1a1a;
 }
 table.ppv_reportcard th.minor_section {
   background-color: #99ff99;
@@ -353,30 +353,30 @@ table.ppv_reportcard th.heading {
 /* ------------------------------------------------------------------------ */
 /* Image Sources */
 table.image_source_listing td.title {
-  background-color: #dddddd;
+  background-color: #1a1a1a;
 }
 /* ------------------------------------------------------------------------ */
 /* Registration table */
 table.register {
-  border: 1px solid #000000;
+  border: 1px solid #989898;
 }
 table.register td.bar {
-  background-color: #444444;
+  background-color: #000000;
 }
 table.register th {
-  background-color: #dddddd;
+  background-color: #1a1a1a;
 }
 /* ------------------------------------------------------------------------ */
 /* Site Progress Snapshot table on Activity Hub */
 table.snapshottable th {
-  background-color: #dddddd;
+  background-color: #1a1a1a;
 }
 table.snapshottable td,
 table.snapshottable th {
-  border-color: #000000;
+  border-color: #989898;
 }
 table.snapshottable th.activity-icon-header {
-  background-color: #ffffff;
+  background-color: #232323;
 }
 /* ------------------------------------------------------------------------ */
 /* WordCheck pages */
@@ -411,22 +411,21 @@ table.snapshottable th.activity-icon-header {
 /* ------------------------------------------------------------------------ */
 /* Standard Proofreading Interface */
 #standard_interface {
-  background-color: #cdc0b0;
-  color: #000000;
+  background-color: #343434;
+  color: #e2e2e2;
 }
 #standard_interface img {
-  filter: opacity(90%);
+  filter: invert(85%);
 }
 #text_data,
 #text_data:focus {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #343434;
+  color: #efefef;
 }
 /* ------------------------------------------------------------------------ */
 /* view_page_text_image */
 .control-form {
   background-color: #CDC0B0;
-  border-bottom: 1px solid #999;
 }
 .control-form input {
   background-color: #FFF8DC;
@@ -442,10 +441,13 @@ table.snapshottable th.activity-icon-header {
 }
 /* vim: sw=4 ts=4 expandtab
 */
-/*value can also be 'none' if no transparency desired*/
+/* shadow on news item boxes */
+/*invert() for dark theme. none or opacity() for light*/
 /* standard proofreading interface colors */
 /* Attention-getting structures */
 /* table styling */
 /* this needs to be two colors, actually, one for themed-striped and one for plain striped. There are two different kinds of stripes -- themed and not themed. May not matter so much for the charcoal theme, but does for the others. So we need an even themed and an even unthemed. */
+/* Available Project listings */
+/* The colors below will override the default colors listed in theme.less */
 /* vim: sw=4 ts=4 expandtab
 */

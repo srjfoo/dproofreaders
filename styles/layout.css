@@ -293,7 +293,7 @@ div.news {
   margin: 1em 0;
 }
 div.newsitem {
-  box-shadow: -5px -5px 5px lightgrey;
+  /* box-shadow declaration moved to theme.less */
   border-radius: 5px;
   padding: 0.75em;
   margin-left: 0.5em;
@@ -335,8 +335,7 @@ div.callout {
   margin-right: 2em;
   margin-left: 2em;
   padding: 1em;
-  background-color: #EEE;
-  border: solid thin black;
+  /*  background-color and border declared in theme.less */
 }
 div.callout p {
   margin-bottom: 0;
@@ -373,7 +372,7 @@ table.filter td select {
 table.register {
   width: auto;
   border-collapse: separate;
-  border: 1px solid black;
+  /* border style declaration moved to theme.less */
 }
 table.register th,
 table.register td {
@@ -403,7 +402,8 @@ table.snapshottable {
 }
 table.snapshottable td,
 table.snapshottable th {
-  border: 1px solid black;
+  border: 1px solid;
+  /* border color defined in theme.less */
   padding: 2px;
   margin: 0;
   text-align: center;
@@ -424,7 +424,7 @@ table.snapshottable td.nocell {
 }
 table.snapshottable th.activity-icon-header {
   border: none;
-  background-color: #ffffff;
+  /*background-color defined in theme.less*/
 }
 .stage-icon {
   display: inline-block;
@@ -544,7 +544,7 @@ table.preferences {
 }
 table.preferences td,
 table.preferences th {
-  border: solid thin black;
+  border: solid thin;
 }
 table.preferences th.longlabel {
   text-align: center;
@@ -553,6 +553,7 @@ table.preferences th.longlabel {
   float: left;
   width: 90%;
   border-bottom: solid thin gray;
+  /*move color to theme.less*/
 }
 .tabs ul {
   margin: 0;
@@ -564,6 +565,7 @@ table.preferences th.longlabel {
   margin: 0;
   padding: 0 0 0 4px;
   border: solid thin gray;
+  /*move color to theme.less*/
   border-radius: 5px 5px 0 0;
   margin-bottom: -2px;
 }
@@ -576,6 +578,7 @@ table.preferences th.longlabel {
 }
 .tabs .current-tab {
   border: solid thin gray;
+  /*move color to theme.less*/
   border-bottom: none;
 }
 .tabs .current-tab a {
@@ -585,7 +588,8 @@ table.preferences th.longlabel {
 /* Themed tables */
 table.themed {
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid;
+  /*border-color: #989898; (dark) black (light)*/
   border-collapse: collapse;
 }
 table.themed tr th,
@@ -598,25 +602,29 @@ table.theme_striped tr td {
 }
 table.basic {
   border-collapse: collapse;
-  border: 1px solid black;
-}
-table.basic th {
-  background-color: #CCC;
+  border: 1px solid;
+  /* border-color: #898989;  black */
+  /*th {
+        background-color: #343434 dark, #CCC light
+    }*/
 }
 table.basic th.label {
   text-align: left;
 }
 table.basic td,
 table.basic th {
-  border: 1px solid black;
+  border: 1px solid;
+  /*border-color: #898989;  black*/
 }
 table.basic td.satisfied {
   text-align: right;
   background-color: #ccffcc;
+  /*move color to theme.less*/
 }
 table.basic td.not_satisfied {
   text-align: right;
   background-color: #ffcccc;
+  /*move color to theme.less*/
 }
 table.basic textarea {
   width: 100%;
@@ -641,6 +649,7 @@ p.hanging_indent_long {
 }
 p.form_problem {
   color: red;
+  /*move color to theme.less*/
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -650,10 +659,12 @@ p.form_problem:before {
 }
 table.ppv_reportcard {
   border: solid thin black;
+  /* move color to theme.less*/
   width: 95%;
 }
 table.ppv_reportcard td {
   border: solid thin black;
+  /* move color to theme.less*/
 }
 /* ------------------------------------------------------------------------ */
 /* Image Sources */
@@ -664,12 +675,15 @@ table.image_source {
 }
 table.image_source th {
   background-color: #eee;
+  /* move color to theme.less*/
   border: 1px solid #999;
+  /* move color to theme.less*/
   text-align: center;
   padding: 5px;
 }
 table.image_source td {
   border: 1px solid #999;
+  /* move color to theme.less*/
   padding: 5px;
 }
 table.image_source td a.sourcelink {
@@ -678,29 +692,35 @@ table.image_source td a.sourcelink {
 }
 table.image_source tr.e {
   background-color: #eee;
+  /* move color to theme.less*/
 }
 table.image_source tr.o {
   background-color: #ddd;
+  /* move color to theme.less*/
 }
 table.image_source th.label {
   text-align: left;
 }
 table.image_source td.enabled {
   background-color: #9f9;
+  /* move color to theme.less*/
   text-align: center;
 }
 table.image_source td.disabled {
   background-color: #ddd;
+  /* move color to theme.less*/
   text-align: center;
 }
 table.image_source td.pending {
   background-color: #ff8;
+  /* move color to theme.less*/
   text-align: center;
 }
 div.perms_wrapper {
   width: 40%;
   display: inline-block;
   border-bottom: dotted black 1px;
+  /* move color to theme.less*/
   padding: 2px;
 }
 /* ------------------------------------------------------------------------ */
@@ -713,15 +733,19 @@ table.pagedetail td {
   text-align: center;
   font-weight: normal;
   border: 1px solid black;
+  /* move color to theme.less*/
 }
 table.pagedetail td.in_progress {
   background-color: #FC6;
+  /* move color to theme.less*/
 }
 table.pagedetail td.done_current {
   background-color: #9F6;
+  /* move color to theme.less*/
 }
 table.pagedetail td.done_previous {
   background-color: #F36;
+  /* move color to theme.less*/
 }
 /* ------------------------------------------------------------------------ */
 /* Remote File Manager */
@@ -742,7 +766,7 @@ table.dirlist caption {
 #standard_interface {
   padding: 0;
   margin: 0;
-  background-color: #CDC0B0;
+  /* background color moved to theme.less*/
 }
 #standard_interface #imagedisplay {
   text-align: center;
@@ -750,9 +774,12 @@ table.dirlist caption {
 #text_data,
 #text_data:focus {
   outline: none;
+  /*    background-color moved to theme.less*/
+  /*    color, ditto*/
 }
 /* ------------------------------------------------------------------------ */
 /* Enhanced Editing Interface */
+/* Will probably need to re-style the enhanced interface, because toolbox */
 #enhanced_interface {
   text-align: center;
   overflow: hidden;
@@ -799,6 +826,7 @@ table.dirlist caption {
 }
 /* ------------------------------------------------------------------------ */
 /* WordCheck Interface */
+/* move color info to theme.less -- tbd */
 #wordcheck_interface {
   text-align: center;
   background-color: #CDCDC1;
@@ -823,14 +851,14 @@ table.dirlist caption {
   padding: 0.5em;
 }
 /* ------------------------------------------------------------------------ */
-/* control frame */
+/* control frame  ?? for enhanced interface?*/
 .control-frame {
   background-color: #CDC0B0;
   padding: 0;
   margin: 0;
 }
 /* ------------------------------------------------------------------------ */
-/* Proofreading Toolbox */
+/* Proofreading Toolbox -- move color info to theme.less */
 #toolbox {
   padding: 2px;
   /* default buttons have small text = 83% */
@@ -904,7 +932,7 @@ table.dirlist caption {
   width: 100%;
 }
 /* ------------------------------------------------------------------------ */
-/* Special days tables */
+/* Special days tables -- move color information to theme.less */
 table.list_special_days {
   width: 90%;
   margin: auto;
@@ -992,7 +1020,7 @@ table.search-column tr th {
   }
 }
 /* ------------------------------------------------------------------------ */
-/* Search Results drop-down */
+/* Search Results drop-down -- move color info to theme.less */
 .dropdown {
   position: relative;
   display: inline;
@@ -1023,7 +1051,7 @@ table.search-column tr th {
   display: block;
 }
 /* ------------------------------------------------------------------------ */
-/* PM link box */
+/* PM link box -- move color information to theme.less */
 #pm_links {
   text-align: left;
   vertical-align: top;
@@ -1071,7 +1099,7 @@ li.spaced {
   margin-bottom: 0.5em;
 }
 /* ------------------------------------------------------------------------ */
-/* Codepoint Validator */
+/* Codepoint Validator -- move color info to theme.less */
 .flex_container {
   height: 100%;
   display: flex;
@@ -1106,7 +1134,7 @@ li.spaced {
   font-size: 0.7em;
 }
 /* ------------------------------------------------------------------------ */
-/* replace text validator */
+/* replace text validator -- move color information to theme.less */
 .replace_check {
   height: 20em;
   width: 50em;

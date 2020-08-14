@@ -263,7 +263,7 @@ div.news {
 div.newsheader {
 }
 div.newsitem {
-    box-shadow: -5px -5px 5px lightgrey;
+    /* box-shadow declaration moved to theme.less */
     border-radius: 5px;
     padding: 0.75em;
     margin-left: 0.5em;
@@ -309,8 +309,7 @@ div.callout {
     margin-right: 2em;
     margin-left: 2em;
     padding: 1em;
-    background-color: #EEE;
-    border: solid thin black;
+/*  background-color and border declared in theme.less */
     p {
         margin-bottom: 0;
     }
@@ -353,7 +352,7 @@ table.filter {
 table.register {
     width: auto;
     border-collapse: separate;
-    border: 1px solid black;
+    /* border style declaration moved to theme.less */
     th, td {
         padding: 3px;
     }
@@ -382,7 +381,7 @@ table.snapshottable {
     padding: 0;
     border-collapse: collapse;
     td, th {
-        border: 1px solid black;
+        border: 1px solid; /* border color defined in theme.less */
         padding: 2px;
         margin: 0;
         .center-align;
@@ -403,7 +402,7 @@ table.snapshottable {
     }
     th.activity-icon-header {
         border: none;
-        background-color: #ffffff;
+        /*background-color defined in theme.less*/
     }
 }
 
@@ -541,7 +540,7 @@ Quote http://www.alistapart.com/copyright/:
 table.preferences {
     border-collapse: collapse;
     td, th {
-        border: solid thin black;
+        border: solid thin;
     }
     th.longlabel {
         .center-align;
@@ -551,7 +550,7 @@ table.preferences {
 .tabs {
     float: left;
     width: 90%;
-    border-bottom: solid thin gray;
+    border-bottom: solid thin gray; /*move color to theme.less*/
     ul {
         margin: 0;
         padding: 0 20px 0 10px;
@@ -561,7 +560,7 @@ table.preferences {
         float: left;
         margin: 0;
         padding: 0 0 0 4px;
-        border: solid thin gray;
+        border: solid thin gray; /*move color to theme.less*/
         border-radius: 5px 5px 0 0;
         margin-bottom: -2px;
     }
@@ -573,7 +572,7 @@ table.preferences {
         min-width: 8em;
     }
     .current-tab {
-        border: solid thin gray;
+        border: solid thin gray; /*move color to theme.less*/
         border-bottom: none;
         a {
             .bold;
@@ -586,7 +585,7 @@ table.preferences {
 
 table.themed {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid; /*border-color: #989898; (dark) black (light)*/
     border-collapse: collapse;
     tr {
         th, td {
@@ -605,23 +604,25 @@ table.theme_striped {
 
 table.basic {
     border-collapse: collapse;
-    border: 1px solid black;
-    th {
-        background-color: #CCC;
-    }
+    border: 1px solid;
+    /* border-color: #898989;  black */
+    /*th {
+        background-color: #343434 dark, #CCC light
+    }*/
     th.label {
         .left-align;
     }
     td, th {
-        border: 1px solid black;
+        border: 1px solid;
+        /*border-color: #898989;  black*/
     }
     td.satisfied {
         .right-align;
-        background-color: #ccffcc;
+        background-color: #ccffcc; /*move color to theme.less*/
     }
     td.not_satisfied {
         .right-align;
-        background-color: #ffcccc;
+        background-color: #ffcccc; /*move color to theme.less*/
     }
     textarea {
         width: 100%;
@@ -650,7 +651,7 @@ p.hanging_indent_long {
     margin-left: 3em;
 }
 p.form_problem {
-    color: red;
+    color: red;/*move color to theme.less*/
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -658,10 +659,10 @@ p.form_problem:before {
     content: '\\002193 '; /* down-arrow */
 }
 table.ppv_reportcard {
-    border: solid thin black;
+    border: solid thin black; /* move color to theme.less*/
     width: 95%;
     td {
-        border: solid thin black;
+        border: solid thin black; /* move color to theme.less*/
     }
 }
 
@@ -673,13 +674,13 @@ table.image_source {
     width: 90%;
     margin: auto;
     th {
-        background-color: #eee;
-        border: 1px solid #999;
+        background-color: #eee; /* move color to theme.less*/
+        border: 1px solid #999; /* move color to theme.less*/
         .center-align;
         padding: 5px;
     }
     td {
-        border: 1px solid #999;
+        border: 1px solid #999; /* move color to theme.less*/
         padding: 5px;
         a.sourcelink {
             font-size: 90%;
@@ -687,24 +688,24 @@ table.image_source {
         }
     }
     tr.e {
-        background-color: #eee;
+        background-color: #eee; /* move color to theme.less*/
     }
     tr.o {
-        background-color: #ddd;
+        background-color: #ddd; /* move color to theme.less*/
     }
     th.label {
         .left-align;
     }
     td.enabled {
-        background-color: #9f9;
+        background-color: #9f9; /* move color to theme.less*/
         .center-align;
         }
     td.disabled {
-        background-color: #ddd;
+        background-color: #ddd; /* move color to theme.less*/
         .center-align;
     }
     td.pending {
-        background-color: #ff8;
+        background-color: #ff8; /* move color to theme.less*/
         .center-align;
     }
 }
@@ -712,7 +713,7 @@ table.image_source {
 div.perms_wrapper {
     width: 40%;
     display: inline-block;
-    border-bottom: dotted black 1px;
+    border-bottom: dotted black 1px; /* move color to theme.less*/
     padding: 2px;
 }
 
@@ -724,16 +725,16 @@ table.pagedetail {
     th, td {
         .center-align;
         font-weight: normal;
-        border: 1px solid black;
+        border: 1px solid black; /* move color to theme.less*/
     }
     td.in_progress {
-        background-color: #FC6;
+        background-color: #FC6; /* move color to theme.less*/
     }
     td.done_current {
-        background-color: #9F6;
+        background-color: #9F6; /* move color to theme.less*/
     }
     td.done_previous {
-        background-color: #F36;
+        background-color: #F36; /* move color to theme.less*/
     }
 }
 
@@ -759,7 +760,7 @@ table.dirlist {
 #standard_interface {
     .no-padding;
     .no-margin;
-    background-color: #CDC0B0;
+/* background color moved to theme.less*/
 
     #imagedisplay {
         .center-align;
@@ -768,10 +769,13 @@ table.dirlist {
 
 #text_data, #text_data:focus {
     outline: none;
+/*    background-color moved to theme.less*/
+/*    color, ditto*/
 }
 
 /* ------------------------------------------------------------------------ */
 /* Enhanced Editing Interface */
+/* Will probably need to re-style the enhanced interface, because toolbox */
 
 #enhanced_interface {
     .center-align;
@@ -820,6 +824,7 @@ table.dirlist {
 
 /* ------------------------------------------------------------------------ */
 /* WordCheck Interface */
+/* move color info to theme.less -- tbd */
 
 #wordcheck_interface {
     .center-align;
@@ -847,7 +852,7 @@ table.dirlist {
 }
 
 /* ------------------------------------------------------------------------ */
-/* control frame */
+/* control frame  ?? for enhanced interface?*/
 .control-frame {
     background-color: #CDC0B0;
     padding: 0;
@@ -855,7 +860,7 @@ table.dirlist {
 }
 
 /* ------------------------------------------------------------------------ */
-/* Proofreading Toolbox */
+/* Proofreading Toolbox -- move color info to theme.less */
 
 #toolbox {
     padding: 2px;
@@ -944,7 +949,7 @@ table.dirlist {
 }
 
 /* ------------------------------------------------------------------------ */
-/* Special days tables */
+/* Special days tables -- move color information to theme.less */
 
 table.list_special_days {
     width: 90%; margin: auto;
@@ -1036,7 +1041,7 @@ table.search-column {
 }
 
 /* ------------------------------------------------------------------------ */
-/* Search Results drop-down */
+/* Search Results drop-down -- move color info to theme.less */
 
 .dropdown {
     position: relative;
@@ -1072,7 +1077,7 @@ table.search-column {
 }
 
 /* ------------------------------------------------------------------------ */
-/* PM link box */
+/* PM link box -- move color information to theme.less */
 
 #pm_links {
     .plain-list;
@@ -1124,7 +1129,7 @@ li.spaced {
 }
 
 /* ------------------------------------------------------------------------ */
-/* Codepoint Validator */
+/* Codepoint Validator -- move color info to theme.less */
 
 .flex_container {
     height: 100%;
@@ -1168,7 +1173,7 @@ li.spaced {
 }
 
 /* ------------------------------------------------------------------------ */
-/* replace text validator */
+/* replace text validator -- move color information to theme.less */
 
 .replace_check {
     height: 20em;

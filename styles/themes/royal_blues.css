@@ -27,6 +27,11 @@ header #titles-preserved #x-preserved,
   font-weight: bold;
   font-family: Verdana, Arial, sans-serif;
 }
+/* Add color options for generic text input fields */
+input {
+  background-color: #ffffff;
+  color: #000000;
+}
 /* Navbar */
 nav,
 #navbar-outer,
@@ -90,7 +95,7 @@ nav input,
 #alertbar-outer {
   font-family: Verdana, Arial, sans-serif;
   background-color: rgba(255, 255, 0, 0.4);
-  color: black;
+  color: #000000;
 }
 #alertbar a:link,
 #alertbar-outer a:link,
@@ -105,8 +110,9 @@ nav input,
   font-family: Verdana, Arial, sans-serif;
   background-color: #ffffff;
   background: repeating-linear-gradient(to right, yellow, #ffffff 24%, #ffffff 75%, yellow 100%);
-  color: black;
-  border-bottom: solid thin black;
+  color: #000000;
+  border-bottom: solid thin #000000;
+  /* For light bacground needs to lighten @page-text; for dark background, needs to darken @page-text? for now, use @page-text and just don't worry about it being lightened. */
 }
 #testbar a:link,
 #testbar-outer a:link,
@@ -169,13 +175,16 @@ h6 {
 .sidebar-color {
   background-color: #99ccff;
 }
+/* ------------------------------------------------------------------------ */
 /* Attention-getting structures */
 .error,
 .test_warning {
   color: red;
+  /*red;*/
 }
 .warning {
   color: blue;
+  /*blue;*/
 }
 .highlight {
   background-color: yellow;
@@ -184,8 +193,17 @@ h6 {
 .button {
   font-family: Verdana, Arial, sans-serif;
 }
+div.callout {
+  background-color: #eee;
+  border: solid thin #000000;
+}
 kbd {
   color: #cc0000;
+}
+/* ------------------------------------------------------------------------ */
+/* News items */
+div.newsitem {
+  box-shadow: -5px -5px 5px lightgrey;
 }
 /* ------------------------------------------------------------------------ */
 /* FAQ */
@@ -196,6 +214,10 @@ div.faqheader {
 }
 /* ------------------------------------------------------------------------ */
 /* User Preferences */
+table.preferences td,
+table.preferences th {
+  border-color: #000000;
+}
 table.preferences th.label,
 table.preferences th.longlabel {
   background-color: #99ccff;
@@ -215,6 +237,9 @@ table.preferences th.longlabel {
 }
 /* ------------------------------------------------------------------------ */
 /* Themed tables */
+table.themed {
+  border-color: #000000;
+}
 table.themed tr {
   background-color: #99ccff;
   color: #000000;
@@ -228,7 +253,7 @@ table.themed tr th a:visited {
   color: #ffffff;
 }
 table.theme_striped tr:nth-child(even) {
-  background-color: #99ccff;
+  background-color: #ddd;
 }
 table.theme_striped tr:nth-child(odd) {
   background-color: #ffffff;
@@ -290,6 +315,20 @@ table.stage_SR tr:nth-child(even) {
 table.stage_SR tr:nth-child(odd) {
   background-color: #ccff99;
 }
+/* -------------------------------------------------------------------------*/
+/* Basic tables */
+table.basic {
+  border-color: #000000;
+  /* black in light themes*/
+}
+table.basic tr th,
+table.basic tr td {
+  border-color: #000000;
+  /* black for light theme */
+}
+table.basic th {
+  background-color: #ccc;
+}
 /* ------------------------------------------------------------------------ */
 /* Sans-serif styling */
 .sans-serif {
@@ -318,6 +357,9 @@ table.image_source_listing td.title {
 }
 /* ------------------------------------------------------------------------ */
 /* Registration table */
+table.register {
+  border: 1px solid #000000;
+}
 table.register td.bar {
   background-color: #000099;
 }
@@ -328,6 +370,13 @@ table.register th {
 /* Site Progress Snapshot table on Activity Hub */
 table.snapshottable th {
   background-color: #99ccff;
+}
+table.snapshottable td,
+table.snapshottable th {
+  border-color: #000000;
+}
+table.snapshottable th.activity-icon-header {
+  background-color: #ffffff;
 }
 /* ------------------------------------------------------------------------ */
 /* WordCheck pages */
@@ -360,6 +409,20 @@ table.snapshottable th {
   background: #FFF8DC;
 }
 /* ------------------------------------------------------------------------ */
+/* Standard Proofreading Interface */
+#standard_interface {
+  background-color: #cdc0b0;
+  color: #000000;
+}
+#standard_interface img {
+  filter: opacity(90%);
+}
+#text_data,
+#text_data:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* ------------------------------------------------------------------------ */
 /* view_page_text_image */
 .control-form {
   background-color: #CDC0B0;
@@ -379,5 +442,10 @@ table.snapshottable th {
 }
 /* vim: sw=4 ts=4 expandtab
 */
+/*value can also be 'none' if no transparency desired*/
+/* standard proofreading interface colors */
+/* Attention-getting structures */
+/* table styling */
+/* this needs to be two colors, actually, one for themed-striped and one for plain striped. There are two different kinds of stripes -- themed and not themed. May not matter so much for the charcoal theme, but does for the others. So we need an even themed and an even unthemed. */
 /* vim: sw=4 ts=4 expandtab
 */
