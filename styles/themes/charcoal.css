@@ -178,24 +178,24 @@
   color: #ff0000;
 }
 .page-interface .text-pane {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 .page-interface .control-pane {
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 .page-interface .control-pane input,
 .page-interface .control-pane select,
 .page-interface .control-pane button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 .page-interface .control-pane input[type=submit]:disabled,
 .page-interface .control-pane input[type=button]:disabled,
 .page-interface .control-pane button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 .page-interface .control-pane button,
 .page-interface .control-pane input[type=submit],
@@ -207,7 +207,7 @@
   border: none;
 }
 .page-interface .control-pane .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 /* ------------------------------------------------------------------------ */
 /* Standard Editing Interface */
@@ -227,24 +227,24 @@
   color: #ff0000;
 }
 #standard_interface_image .text-pane {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #standard_interface_image .control-pane {
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #standard_interface_image .control-pane input,
 #standard_interface_image .control-pane select,
 #standard_interface_image .control-pane button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #standard_interface_image .control-pane input[type=submit]:disabled,
 #standard_interface_image .control-pane input[type=button]:disabled,
 #standard_interface_image .control-pane button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #standard_interface_image .control-pane button,
 #standard_interface_image .control-pane input[type=submit],
@@ -256,7 +256,7 @@
   border: none;
 }
 #standard_interface_image .control-pane .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #standard_interface_image #imagedisplay {
   text-align: center;
@@ -316,24 +316,24 @@
   color: #ff0000;
 }
 #enhanced_interface .text-pane {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #enhanced_interface .control-pane {
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #enhanced_interface .control-pane input,
 #enhanced_interface .control-pane select,
 #enhanced_interface .control-pane button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #enhanced_interface .control-pane input[type=submit]:disabled,
 #enhanced_interface .control-pane input[type=button]:disabled,
 #enhanced_interface .control-pane button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #enhanced_interface .control-pane button,
 #enhanced_interface .control-pane input[type=submit],
@@ -345,7 +345,7 @@
   border: none;
 }
 #enhanced_interface .control-pane .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #enhanced_interface #tbtext {
   margin-left: auto;
@@ -358,20 +358,20 @@
   vertical-align: middle;
   padding: 2px;
   border: thin solid #565656;
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #enhanced_interface #tdtop input,
 #enhanced_interface #tdtop select,
 #enhanced_interface #tdtop button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #enhanced_interface #tdtop input[type=submit]:disabled,
 #enhanced_interface #tdtop input[type=button]:disabled,
 #enhanced_interface #tdtop button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #enhanced_interface #tdtop button,
 #enhanced_interface #tdtop input[type=submit],
@@ -383,7 +383,7 @@
   border: none;
 }
 #enhanced_interface #tdtop .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #enhanced_interface #tdtext,
 #enhanced_interface #tdbottom {
@@ -405,24 +405,24 @@
   color: #ff0000;
 }
 #enhanced_interface #tdtext .text-pane {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #enhanced_interface #tdtext .control-pane {
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #enhanced_interface #tdtext .control-pane input,
 #enhanced_interface #tdtext .control-pane select,
 #enhanced_interface #tdtext .control-pane button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #enhanced_interface #tdtext .control-pane input[type=submit]:disabled,
 #enhanced_interface #tdtext .control-pane input[type=button]:disabled,
 #enhanced_interface #tdtext .control-pane button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #enhanced_interface #tdtext .control-pane button,
 #enhanced_interface #tdtext .control-pane input[type=submit],
@@ -434,7 +434,7 @@
   border: none;
 }
 #enhanced_interface #tdtext .control-pane .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #enhanced_interface #tdbottom {
   background-color: #EEDFCC;
@@ -446,8 +446,8 @@
 #enhanced_interface #text_data:focus {
   padding: 2px;
   outline: none;
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #enhanced_interface .dropsmall {
   font-size: 75%;
@@ -470,24 +470,24 @@
   color: #ff0000;
 }
 #wordcheck_interface .text-pane {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #wordcheck_interface .control-pane {
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #wordcheck_interface .control-pane input,
 #wordcheck_interface .control-pane select,
 #wordcheck_interface .control-pane button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #wordcheck_interface .control-pane input[type=submit]:disabled,
 #wordcheck_interface .control-pane input[type=button]:disabled,
 #wordcheck_interface .control-pane button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #wordcheck_interface .control-pane button,
 #wordcheck_interface .control-pane input[type=submit],
@@ -499,7 +499,7 @@
   border: none;
 }
 #wordcheck_interface .control-pane .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #wordcheck_interface #tbtext {
   margin-left: auto;
@@ -510,20 +510,20 @@
 #wordcheck_interface #tdtop {
   padding: 2px;
   border: thin solid #565656;
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #wordcheck_interface #tdtop input,
 #wordcheck_interface #tdtop select,
 #wordcheck_interface #tdtop button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #wordcheck_interface #tdtop input[type=submit]:disabled,
 #wordcheck_interface #tdtop input[type=button]:disabled,
 #wordcheck_interface #tdtop button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #wordcheck_interface #tdtop button,
 #wordcheck_interface #tdtop input[type=submit],
@@ -535,15 +535,15 @@
   border: none;
 }
 #wordcheck_interface #tdtop .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #wordcheck_interface #tdtext {
   vertical-align: top;
   text-align: left;
   padding: 0.5em;
   border: thin solid #565656;
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #wordcheck_interface #tdtext .proofingfont input {
   background-color: white;
@@ -624,24 +624,24 @@
   color: #ff0000;
 }
 #format_preview .text-pane {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #format_preview .control-pane {
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #format_preview .control-pane input,
 #format_preview .control-pane select,
 #format_preview .control-pane button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #format_preview .control-pane input[type=submit]:disabled,
 #format_preview .control-pane input[type=button]:disabled,
 #format_preview .control-pane button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #format_preview .control-pane button,
 #format_preview .control-pane input[type=submit],
@@ -653,25 +653,25 @@
   border: none;
 }
 #format_preview .control-pane .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 .ilb {
   border: thin solid #404040;
   border-radius: 2px;
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 .ilb input,
 .ilb select,
 .ilb button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 .ilb input[type=submit]:disabled,
 .ilb input[type=button]:disabled,
 .ilb button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 .ilb button,
 .ilb input[type=submit],
@@ -683,7 +683,7 @@
   border: none;
 }
 .ilb .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 /* ------------------------------------------------------------------------ */
 /* Codepoint Validator */
@@ -695,20 +695,20 @@
 .fixedbox {
   flex: 0 0 auto;
   padding: 2px;
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 .fixedbox input,
 .fixedbox select,
 .fixedbox button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 .fixedbox input[type=submit]:disabled,
 .fixedbox input[type=button]:disabled,
 .fixedbox button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 .fixedbox button,
 .fixedbox input[type=submit],
@@ -720,14 +720,14 @@
   border: none;
 }
 .fixedbox .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 .stretchbox {
   flex: auto;
   min-height: 10px;
   overflow: auto;
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 .ws-pre {
   white-space: pre;
@@ -743,20 +743,20 @@
 .control-frame {
   padding: 0;
   margin: 0;
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 .control-frame input,
 .control-frame select,
 .control-frame button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 .control-frame input[type=submit]:disabled,
 .control-frame input[type=button]:disabled,
 .control-frame button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 .control-frame button,
 .control-frame input[type=submit],
@@ -768,28 +768,28 @@
   border: none;
 }
 .control-frame .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 /* ------------------------------------------------------------------------ */
 /* Proofreading Toolbox */
 #toolbox {
   padding: 2px;
   font-family: Verdana, Helvetica, sans-serif;
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
   /* adjust so tools do not jump around with different character pickers */
 }
 #toolbox input,
 #toolbox select,
 #toolbox button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #toolbox input[type=submit]:disabled,
 #toolbox input[type=button]:disabled,
 #toolbox button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #toolbox button,
 #toolbox input[type=submit],
@@ -801,10 +801,10 @@
   border: none;
 }
 #toolbox .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #toolbox .selector_button {
-  background-color: Bisque;
+  background-color: red;
   margin-top: 1px;
   font-size: 1em;
   padding: 0.1em 0.15em 0 0.15em;
@@ -813,7 +813,7 @@
 }
 #toolbox .selected-tab {
   font-weight: bold;
-  background-color: #343434;
+  background-color: #383838;
   box-shadow: -1px -1px grey;
 }
 #toolbox .proofbutton {
@@ -910,24 +910,24 @@
   color: #ff0000;
 }
 #page-browser .text-pane {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #page-browser .control-pane {
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   color: #efefef;
 }
 #page-browser .control-pane input,
 #page-browser .control-pane select,
 #page-browser .control-pane button {
-  background-color: #343434;
-  color: #efefef;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 #page-browser .control-pane input[type=submit]:disabled,
 #page-browser .control-pane input[type=button]:disabled,
 #page-browser .control-pane button:disabled {
-  background-color: #242424;
+  background-color: #272727;
 }
 #page-browser .control-pane button,
 #page-browser .control-pane input[type=submit],
@@ -939,7 +939,7 @@
   border: none;
 }
 #page-browser .control-pane .menu {
-  background-color: Bisque;
+  background-color: red;
 }
 #page-browser .control-pane {
   padding: 0 1em;
@@ -3115,3 +3115,7 @@ table.striped tr:nth-child(even) td {
 /* Text pane */
 /* Control panes */
 /* Links */
+/* Proofing image */
+#scanimage {
+  img: invert(85%);
+}

@@ -55,7 +55,7 @@ header, #header {
  * if we want to tone down the bright white for the enhanced
  * interface. Currently disabled.
  */
-// @image-property: invert(85%);
+@image-property: invert(85%);
 
 /* Form and menu colors */
 @form-text-background: #343434;
@@ -270,15 +270,24 @@ table.striped {
 @page-interface-text: #efefef;
 
 /* Text pane */
-@text-pane-background: #343434;
-@text-pane-text: #efefef;
+@text-pane-background: #383838;
+@text-pane-text: #e2e2e2;
 
 /* Control panes */
-@control-pane-background: #CDC0B0;
+@control-pane-background: #5d4e3c;
 @control-pane-text: #efefef;
-@control-pane-menu: Bisque;
+@control-pane-menu: red; //#663800;
+// I'm trying to find where the control pane menu class
+// is used -- no success so far.
 
 /* Links */
 @page-interface-link-color: #0000ff;
 @page-interface-visited-color: #990099;
 @page-interface-active-color: #ff0000;
+
+// this doesn't work right now, and I need to check back to see
+// how I did it in my earlier try; too late at night right now.
+/* Proofing image */
+#scanimage{
+    img: @image-property;
+}
