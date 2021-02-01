@@ -25,9 +25,15 @@
 @page-interface-visited-color: #990099;
 @page-interface-active-color: #ff0000;
 
+/* Proofing image */
+@image-property: opacity(100%);
+
 .page-interface {
     background-color: @page-interface-background;
     color: @page-interface-text;
+    img {
+        filter: @image-property;
+    }
     a:link {
         color: @page-interface-link-color;
     }
