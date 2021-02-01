@@ -164,9 +164,13 @@
 /* Text pane */
 /* Control panes */
 /* Links */
+/* Proofing image */
 .page-interface {
   background-color: #1a1a1a;
   color: #efefef;
+}
+.page-interface img {
+  filter: invert(85%);
 }
 .page-interface a:link {
   color: #0000ff;
@@ -216,6 +220,9 @@
   margin: 0;
   background-color: #1a1a1a;
   color: #efefef;
+}
+#standard_interface_image img {
+  filter: invert(85%);
 }
 #standard_interface_image a:link {
   color: #0000ff;
@@ -306,6 +313,9 @@
   background-color: #1a1a1a;
   color: #efefef;
 }
+#enhanced_interface img {
+  filter: invert(85%);
+}
 #enhanced_interface a:link {
   color: #0000ff;
 }
@@ -395,6 +405,9 @@
   background-color: #1a1a1a;
   color: #efefef;
 }
+#enhanced_interface #tdtext img {
+  filter: invert(85%);
+}
 #enhanced_interface #tdtext a:link {
   color: #0000ff;
 }
@@ -459,6 +472,9 @@
   overflow: auto;
   background-color: #1a1a1a;
   color: #efefef;
+}
+#wordcheck_interface img {
+  filter: invert(85%);
 }
 #wordcheck_interface a:link {
   color: #0000ff;
@@ -613,6 +629,9 @@
 #format_preview {
   background-color: #1a1a1a;
   color: #efefef;
+}
+#format_preview img {
+  filter: invert(85%);
 }
 #format_preview a:link {
   color: #0000ff;
@@ -899,6 +918,9 @@
 #page-browser .stretch-box {
   flex: 1 1 100%;
   min-height: 10px;
+}
+#page-browser img {
+  filter: invert(85%);
 }
 #page-browser a:link {
   color: #0000ff;
