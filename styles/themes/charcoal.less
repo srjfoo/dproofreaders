@@ -265,7 +265,8 @@ table.striped {
  * toolbox, code point validator, display image interface, etc.
  */
 
-/* Base layer for page interface */
+/* Base layer for page interface -- the page interface colors
+   are the same as the colors in the Enhanced PI. */
 @page-interface-background: @header-background;
 @page-interface-text: #efefef;
 
@@ -273,20 +274,32 @@ table.striped {
 @text-pane-background: #383838;
 @text-pane-text: #e2e2e2;
 
-/* Control panes */
+/* Control panes -- I'm not super happy with the control pane
+   menu color. It's too close to the control pane background. */
+/* Background color for toolbox and image control bar */
 @control-pane-background: #5d4e3c;
+/* Text color for non-button/non-link text in toolbox
+   and image control bar */
 @control-pane-text: #efefef;
-@control-pane-menu: red; //#663800;
-// I'm trying to find where the control pane menu class
-// is used -- no success so far.
+/* The control pane menu variable appears to control the
+ color of the character suite picker menu buttons. */
+@control-pane-menu: #663800;
 
-/* Links */
+/* Links --
+These are for light-colored backgrounds and need to be
+changed for dark. Or rather, try disabling them altogether
+so they go back to the default for the charcoal themed
+site pages. That didn't work, so, try using the variables.
+
 @page-interface-link-color: #0000ff;
 @page-interface-visited-color: #990099;
 @page-interface-active-color: #ff0000;
+*/
+@page-interface-link-color: @link-color;
+@page-interface-visited-color: @visited-color;
+@page-interface-active-color: @active-color;
 
-// this doesn't work right now, and I need to check back to see
-// how I did it in my earlier try; too late at night right now.
+
 /* Proofing image */
 #scanimage{
     img: @image-property;

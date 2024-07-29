@@ -173,13 +173,13 @@
   filter: invert(85%);
 }
 .page-interface a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 .page-interface a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 .page-interface a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 .page-interface .text-pane {
   background-color: #383838;
@@ -211,7 +211,7 @@
   border: none;
 }
 .page-interface .control-pane .menu {
-  background-color: red;
+  background-color: #663800;
 }
 /* ------------------------------------------------------------------------ */
 /* Standard Editing Interface */
@@ -225,13 +225,13 @@
   filter: invert(85%);
 }
 #standard_interface_image a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #standard_interface_image a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #standard_interface_image a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 #standard_interface_image .text-pane {
   background-color: #383838;
@@ -263,7 +263,7 @@
   border: none;
 }
 #standard_interface_image .control-pane .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #standard_interface_image #imagedisplay {
   text-align: center;
@@ -287,13 +287,13 @@
   margin: 2px;
 }
 #standard_interface_text a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #standard_interface_text a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #standard_interface_text a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 #standard_interface_text .text-link-disabled {
   color: #666666;
@@ -317,13 +317,13 @@
   filter: invert(85%);
 }
 #enhanced_interface a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #enhanced_interface a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #enhanced_interface a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 #enhanced_interface .text-pane {
   background-color: #383838;
@@ -355,7 +355,7 @@
   border: none;
 }
 #enhanced_interface .control-pane .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #enhanced_interface #tbtext {
   margin-left: auto;
@@ -393,7 +393,7 @@
   border: none;
 }
 #enhanced_interface #tdtop .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #enhanced_interface #tdtext,
 #enhanced_interface #tdbottom {
@@ -409,13 +409,13 @@
   filter: invert(85%);
 }
 #enhanced_interface #tdtext a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #enhanced_interface #tdtext a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #enhanced_interface #tdtext a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 #enhanced_interface #tdtext .text-pane {
   background-color: #383838;
@@ -447,7 +447,7 @@
   border: none;
 }
 #enhanced_interface #tdtext .control-pane .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #enhanced_interface #tdbottom {
   background-color: #EEDFCC;
@@ -477,13 +477,13 @@
   filter: invert(85%);
 }
 #wordcheck_interface a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #wordcheck_interface a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #wordcheck_interface a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 #wordcheck_interface .text-pane {
   background-color: #383838;
@@ -515,7 +515,7 @@
   border: none;
 }
 #wordcheck_interface .control-pane .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #wordcheck_interface #tbtext {
   margin-left: auto;
@@ -551,7 +551,7 @@
   border: none;
 }
 #wordcheck_interface #tdtop .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #wordcheck_interface #tdtext {
   vertical-align: top;
@@ -570,8 +570,8 @@
 }
 #wordcheck_interface #wc_header input,
 #wordcheck_interface #wc_header select {
-  background-color: #FFF8DC;
-  color: black;
+  background-color: #383838;
+  color: #e2e2e2;
 }
 #wordcheck_interface #wc_header button,
 #wordcheck_interface #wc_header input[type=submit],
@@ -598,8 +598,8 @@
   display: inline;
 }
 #wordcheck_interface #wc_header .dict-selection .dict-section .remove-language {
-  background-color: #FFF8DC;
-  color: black;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
   border-radius: 5px;
   font-size: 0.9em;
@@ -634,13 +634,13 @@
   filter: invert(85%);
 }
 #format_preview a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #format_preview a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #format_preview a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 #format_preview .text-pane {
   background-color: #383838;
@@ -672,7 +672,7 @@
   border: none;
 }
 #format_preview .control-pane .menu {
-  background-color: red;
+  background-color: #663800;
 }
 .ilb {
   border: thin solid #404040;
@@ -702,7 +702,7 @@
   border: none;
 }
 .ilb .menu {
-  background-color: red;
+  background-color: #663800;
 }
 /* ------------------------------------------------------------------------ */
 /* Codepoint Validator */
@@ -739,7 +739,7 @@
   border: none;
 }
 .fixedbox .menu {
-  background-color: red;
+  background-color: #663800;
 }
 .stretchbox {
   flex: auto;
@@ -787,7 +787,7 @@
   border: none;
 }
 .control-frame .menu {
-  background-color: red;
+  background-color: #663800;
 }
 /* ------------------------------------------------------------------------ */
 /* Proofreading Toolbox */
@@ -820,10 +820,10 @@
   border: none;
 }
 #toolbox .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #toolbox .selector_button {
-  background-color: red;
+  background-color: #663800;
   margin-top: 1px;
   font-size: 1em;
   padding: 0.1em 0.15em 0 0.15em;
@@ -895,13 +895,13 @@
   width: 100%;
 }
 #toolbox #tools a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #toolbox #tools a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #toolbox #tools a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 /* ------------------------------------------------------------------------ */
 /* Page Browser */
@@ -923,13 +923,13 @@
   filter: invert(85%);
 }
 #page-browser a:link {
-  color: #0000ff;
+  color: #b3ccff;
 }
 #page-browser a:visited {
-  color: #990099;
+  color: #dfb9b9;
 }
 #page-browser a:active {
-  color: #ff0000;
+  color: #ff66aa;
 }
 #page-browser .text-pane {
   background-color: #383838;
@@ -961,7 +961,7 @@
   border: none;
 }
 #page-browser .control-pane .menu {
-  background-color: red;
+  background-color: #663800;
 }
 #page-browser .control-pane {
   padding: 0 1em;
@@ -1010,8 +1010,8 @@
   padding: 0.1em;
   flex: 0 0 auto;
   display: flex;
-  background-color: #CDC0B0;
-  color: black;
+  background-color: #5d4e3c;
+  color: #efefef;
   border-style: solid;
   border-color: gray;
   overflow: auto;
@@ -1019,8 +1019,8 @@
 .control-bar input,
 .control-bar select,
 .control-bar button {
-  background-color: #FFF8DC;
-  color: black;
+  background-color: #383838;
+  color: #e2e2e2;
   border: thin solid #565656;
 }
 .control-bar input[type=number] {
@@ -1036,7 +1036,7 @@
 .control-bar input[type=submit]:disabled,
 .control-bar input[type=button]:disabled,
 .control-bar button:disabled {
-  background-color: #b3ae9a;
+  background-color: #272727;
 }
 .control-bar button,
 .control-bar input[type=submit],
@@ -1056,7 +1056,7 @@
   padding: 0.2em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
   border-radius: 0.3em;
-  background-color: #CDC0B0;
+  background-color: #5d4e3c;
   border: 1px solid gray;
   display: none;
   z-index: 1;
@@ -3133,10 +3133,25 @@ table.striped tr:nth-child(even) td {
  * interfaces (standard and enhanced), WordCheck, the proofreading
  * toolbox, code point validator, display image interface, etc.
  */
-/* Base layer for page interface */
+/* Base layer for page interface -- the page interface colors
+   are the same as the colors in the Enhanced PI. */
 /* Text pane */
 /* Control panes */
-/* Links */
+/* Background color for toolbox and image control bar */
+/* Text color for non-button/non-link text in toolbox
+   and image control bar */
+/* The control pane menu variable appears to control the
+ color of the character suite picker menu buttons. */
+/* Links --
+These are for light-colored backgrounds and need to be
+changed for dark. Or rather, try disabling them altogether
+so they go back to the default for the charcoal themed
+site pages. That didn't work, so, try using the variables.
+
+@page-interface-link-color: #0000ff;
+@page-interface-visited-color: #990099;
+@page-interface-active-color: #ff0000;
+*/
 /* Proofing image */
 #scanimage {
   img: invert(85%);
