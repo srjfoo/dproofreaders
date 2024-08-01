@@ -55,7 +55,7 @@ header, #header {
  * if we want to tone down the bright white for the enhanced
  * interface. Currently disabled.
  */
-// @image-property: invert(85%);
+@image-property: invert(85%);
 
 /* Form and menu colors */
 @form-text-background: #343434;
@@ -254,4 +254,52 @@ table.striped {
         color: black;
         opacity: 70%;
     }
+}
+
+/* -------------------------------------------------------
+ * Page Interfaces
+ *
+ * The following colors all relate to various page interfaces,
+ * as defined in page_interfaces.less, such as the proofreading
+ * interfaces (standard and enhanced), WordCheck, the proofreading
+ * toolbox, code point validator, display image interface, etc.
+ */
+
+/* Base layer for page interface -- the page interface colors
+   are the same as the colors in the Enhanced PI. */
+@page-interface-background: @header-background;
+@page-interface-text: #efefef;
+
+/* Text pane */
+@text-pane-background: #383838;
+@text-pane-text: #e2e2e2;
+
+/* Control panes -- I'm not super happy with the control pane
+   menu color. It's too close to the control pane background. */
+/* Background color for toolbox and image control bar */
+@control-pane-background: #5d4e3c;
+/* Text color for non-button/non-link text in toolbox
+   and image control bar */
+@control-pane-text: #efefef;
+/* The control pane menu variable appears to control the
+ color of the character suite picker menu buttons. */
+@control-pane-menu: #663800;
+
+/* Links */
+@page-interface-link-color: @link-color;
+@page-interface-visited-color: @visited-color;
+@page-interface-active-color: @active-color;
+
+/* WordCheck */
+@preWC: #666666;
+@noWC: #996300;
+@WC: #036309;
+
+/* Other colors */
+@pi-text-link-disabled: #999999;
+
+
+/* Proofing image */
+#scanimage{
+    img: @image-property;
 }
