@@ -3136,7 +3136,8 @@ table.striped tr:nth-child(even) td {
 /* Base layer for page interface -- the page interface colors
    are the same as the colors in the Enhanced PI. */
 /* Text pane */
-/* Control panes */
+/* Control panes -- I'm not super happy with the control pane
+   menu color. It's too close to the control pane background. */
 /* Background color for toolbox and image control bar */
 /* Text color for non-button/non-link text in toolbox
    and image control bar */
